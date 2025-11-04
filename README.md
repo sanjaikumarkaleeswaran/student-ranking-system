@@ -77,7 +77,4 @@ Before running this project, ensure you have:
 - **npm** or **yarn** - Package manager
 - **Git** - Version control
 
-## 🚀 Installation & Setup
-
-### 1. Clone the Repository
 
