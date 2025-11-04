@@ -1,0 +1,7 @@
+{
+  "name": "student-ranking-system",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "cd client && npm install && cd ../server && npm install"
+  }
+}
