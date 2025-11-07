@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "install-all": "cd client && npm install && cd ../server && npm install"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4"
   }
 }

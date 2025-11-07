@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourdomain.studentranking",
+  "appName": "studentRankingSystem",
+  "webDir": "build",  
+  "bundledWebRuntime": false
+}
