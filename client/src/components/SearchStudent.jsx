@@ -23,13 +23,13 @@ function SearchStudent() {
       </div>
       <button onClick={handleSearch} className="btn btn-primary">Search</button>
       {result && (
-        <div style={{ marginTop: '16px', padding: '16px', background: 'var(--color-secondary)', borderRadius: '8px', borderLeft: `4px solid ${result.found ? 'var(--color-primary)' : 'var(--color-red-400)'}` }}>
+        <div style={{ marginTop: '32px', padding: '32px', background: '#232B36', borderRadius: '8px', borderLeft: `8px solid ${result.found ? 'var(--color-primary)' : 'var(--color-red-400)'}` }}>
           {result.found ? (
             <>
               <h3>{result.student.name}</h3>
               <p><strong>ID:</strong> {result.student.studentId}</p>
               <p><strong>Score:</strong> {result.student.score} | <strong>Grade:</strong> {result.student.grade}</p>
-              <p style={{ marginTop: '8px', fontSize: '12px', color: 'var(--color-text-secondary)' }}>Found in {result.comparisons} comparisons</p>
+              <p style={{ marginTop: '50px', fontSize: '50px', color: 'var(--color-text-secondary)' }}>Found in {result.comparisons} comparisons</p>
             </>
           ) : (
             <p>Not found ({result.comparisons} comparisons)</p>
